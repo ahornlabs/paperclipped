@@ -108,6 +108,8 @@ table#site-map td.assets, table#site-map th.assets  { text-align: right; border:
 #show-bucket {
   float: right;
   position: relative;
+  /* Don't really know why this is necessary */
+  height: 20px;
 }
 #show-bucket a { color: white; text-decoration: none; }
 
